@@ -1,3 +1,96 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@100;300;400&display=swap');
+
+
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+
+}
+
 .heading{
-    background-image: url('./background\ image.jpg');
+    background-image: url('Images/image3.avif');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+   
+}
+
+.heading h1{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 100px;
+    font: size 200px;;
+    color:rgb(26, 104, 206);
+    word-spacing: 5px;
+    letter-spacing: 10px;
+    font-weight:900;
+}
+
+
+    
+
+
+.essay{
+    margin: 50px auto;
+    width:80%;
+    padding:50px 30px;
+    background-color:rgb(162, 203, 219);
+    border-width:20px;
+    box-shadow: 5px 10px 5px 10px rgb(131, 186, 211);
+    font-size: 1em;
+    
+    
+}
+
+.essay h2{
+    font-weight: bolder;
+    color:rgb(13, 53, 128);
+    font-size:xx-large;
+    padding-bottom: 5px;
+    text-decoration: underline 5px;
+
+}
+
+.essay p{
+    padding: 5px;
+}
+
+.cows{
+    display: flex;
+    gap:5px;
+    overflow: none;
+    padding: 0px 10px;
+    
+}
+
+
+#cow1 img{
+    padding: 10px;
+    height: 300px;
+    width:500px;
+    box-shadow: 2px 5px 10px skyblue;
+}
+
+#cow2 img{
+    padding: 10px;
+    height: 300px;
+    width:500px;
+    box-shadow: 2px 5px 10px skyblue;
+}
+
+#cow3 img{
+    padding: 10px;
+    height: 300px;
+    width:500px;
+    box-shadow: 2px 5px 10px  skyblue;
+}
+
+div h2{
+    text-align: center;
+    padding-bottom: 20px;
+    color:rgb(13, 53, 128);
+    font-weight:bolder;
+    text-decoration: underline 5px;
 }
